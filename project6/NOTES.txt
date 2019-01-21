@@ -1,0 +1,15 @@
+NOTES on PROJECT 6:
+==================
+-There are 256 cases (2^8) per cell/cube.
+-Cases can have up to 16 points.
+-Points may be repeated to add up to a number divisible by 3
+	{0, 3, 8, 0, 1, 2, etc}
+-For instance, one case may be:
+	{0, 3, 8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1}
+	E0 -> E3 -> E8 (makes one triangle)
+	
+- I think what's going on is:
+Hank's case surrounds V0
+-the next v1
+-the next v2
+My case covers v3
