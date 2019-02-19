@@ -3,4 +3,4 @@
 
 Author: Jacob Brown
 
-Description: TK
+Description: Crowd-sourced file containing the 256 different triangle cases needed to create isosurfaces for later projects.
